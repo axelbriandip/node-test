@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/players', (req, res) => {
+app.get('/', (req, res) => {
     res.status(200).send({
         msg: 'hola mundo'
     })
